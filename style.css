@@ -1,0 +1,62 @@
+h1 {
+    display: flex;
+    background-color: rgba(0, 89, 255, 0.254);
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+p {
+    display: flex;
+    background-color: rgba(4, 0, 255, 0.482);
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h3 {
+    display: flex;
+    background-color: rgba(0, 0, 255, 0.252);
+    align-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+h3 #Rock{
+    font-weight: bolder;
+    font-size: larger;
+    width: 100px;
+    height: 50px;
+}
+
+h3 #Paper{
+    font-weight: bolder;
+    font-size: larger;
+    width: 100px;
+    height: 50px;
+}
+
+h3 #Scissor{
+    font-weight: bolder;
+    font-size: larger;
+    width: 100px;
+    height: 50px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 89, 255, 0.254);
+    align-items: center;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.118);
+    margin: auto;
+}
